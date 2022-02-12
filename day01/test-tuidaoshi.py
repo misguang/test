@@ -10,8 +10,14 @@
 # print(multiples)
 
 #字典推导式
-listdemo = ['Google','Runoob', 'Taobao','Bob','Tom','alice','Jerry','Wendy','Smith']
+# listdemo = ['Google','Runoob', 'Taobao','Bob','Tom','alice','Jerry','Wendy','Smith']
+#
+# newdict = {key:len(key) for key in listdemo}
+#
+# print(newdict)
+#
+# dic = {x:x**2 for x in (2,4,6)}
+# print(dic)
 
-newdict = {key:len(key) for key in listdemo}
+#集合推导式
 
-print(newdict)
