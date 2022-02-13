@@ -34,3 +34,8 @@ x=[a,n]
 print(x)
 
 print(x[0][1])
+
+
+
+tup1 = (50,)
+print(tup1)
