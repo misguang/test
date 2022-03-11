@@ -30,4 +30,10 @@ del tinydict2['Name']   #删除键
 tinydict2.clear()   #执行后清空字典
 print(tinydict2)
 del tinydict    #删除字典
-print(tinydict) #删除后报错：NameError: name 'tinydict' is not defined
+#print(tinydict) #删除后报错：NameError: name 'tinydict' is not defined
+
+# tinydict = {['Name']: 'Runoob', 'Age': 7}
+# 键必须不可变，所以可以用数字，字符串或元组充当，而用列表就不行    TypeError: unhashable type: 'list'
+
+print ("tinydict['Name']: ", tinydict['Name'])
+
